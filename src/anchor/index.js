@@ -21,7 +21,7 @@ console.log(
   start of \
   the new line \
   without newline character';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -32,7 +32,7 @@ console.log(
   const regex = /\.$/gi;
   const str =
     'The regex matches the expression. at \nthe start of. \nthe new line.\nwithout newline character.';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -43,7 +43,7 @@ console.log(
   const regex = /^the/gim;
   const str =
     'The regex matches the expression at \nthe start of\nthe new line\nwith newline character';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -53,7 +53,7 @@ console.log(
   );
   const regex = /\.$/gim;
   const str = 'line1.\nline2.\nline3.';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -64,7 +64,7 @@ console.log(
   const regex = /\bplan/gim;
   const str =
     'Saving the planet with planting the trees sounds like a great plan';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -75,7 +75,7 @@ console.log(
   const regex = /plan\b/gim;
   const str =
     'Saving the planet with planting the trees sounds like a great plan';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -86,7 +86,7 @@ console.log(
   const regex = /\bplan\b/gim;
   const str =
     'Saving the planet with planting the trees sounds like a great plan';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -97,7 +97,7 @@ console.log(
   const regex = /\Bplan\B/gim;
   const str =
     'Implant: Saving the planet with planting the trees sounds like a great plan';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 

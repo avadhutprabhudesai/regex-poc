@@ -13,7 +13,7 @@ console.log(
   const regex = /<p>.*<\/p>/gi;
   const str =
     '<p>Should match this p tag separately</p><p>But matches both as one because of greediness</p>';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
@@ -22,7 +22,7 @@ console.log(
   const regex = /<p>.*?<\/p>/gi;
   const str =
     '<p>Now this p tag is one match</p><p>And this is a separate match</p>';
-  console.log(`"${str}".match(${regex})`);
+  console.log(`"${str}".match(${regex})\n`);
   console.log(str.match(regex));
 })();
 
