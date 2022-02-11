@@ -1,4 +1,5 @@
 // require('./basics');
 // require('./characters');
 // require('./repetition');
-require('./anchor');
+// require('./anchor');
+require('./alternates-groups');
